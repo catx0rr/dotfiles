@@ -1,0 +1,97 @@
+///////////////////////////////////////////////////////////
+//            catx0rr-terminus-sublime-config
+//////////////////////////////////////////////////////////
+
+[
+
+    // Togle Terminus panel (at the bottom of the screen) Open/Closed when Alt+' is pressed
+    {
+        // The key press to look out for
+        "keys": ["alt+`"],
+
+        // Toggle the panel
+        "command": "toggle_terminus_panel"
+    },
+
+    // Open WSL ubuntu terminal when Alt+1 is pressed
+    {
+        // The key press to look out for
+        "keys": ["alt+1"],
+
+        // Tell terminus to open something
+        "command": "terminus_open",
+
+        // Tell terminus what to open
+        "args" : {
+            // Open WSL ubuntu bash terminal
+            "cmd": ["cmd.exe", "/c", "ubuntu"],
+
+            // Provide Command Prompt with Current Working Directory
+            "cwd": "${file_path:${folder}}",
+            "title": "Bash Terminal WSL",
+            // Tell terminus to put it in the panel at the bottom of the screen
+            "panel_name": "Terminus"
+        }
+    },
+
+    // python3 interpreter terminal key config
+    {
+        "keys": ["alt+2"],
+        "command": "terminus_open",
+        "args" : {
+            "cmd": ["cmd.exe", "/c", "python"],
+            "cwd": "${file_path:${folder}}",
+            "title": "Python3",
+            "panel_name": "Terminus"
+        }
+    },
+    // powershell terminal key config
+    {
+        "keys": ["alt+3"],
+        "command": "terminus_open",
+         "args" : {
+            "cmd": "powershell.exe",
+            "cwd": "${file_path:${folder}}",
+            "title": "Powershell",
+            "panel_name": "Terminus"
+         }
+    },
+
+    // cmd terminal key config
+    {
+        "keys": ["alt+4"],
+        "command": "terminus_open",
+         "args" : {
+            "cmd": "cmd.exe",
+            "cwd": "${file_path:${folder}}",
+            "title": "Command Prompt",
+            "panel_name": "Terminus"
+         }
+    },
+
+    // open git bash when key pressed
+    {
+        "keys": [""],
+        "command": "terminus_open",
+         "args" : {
+            // Tell terminus to use Git Bash
+            // Replace the path below with your path to Git Bash
+            "cmd": ["C:\\Program Files\\Git\\bin\\bash.exe", "-i", "-l"],
+            "cwd": "${file_path:${folder}}",
+            "title": "Git Bash",
+            "panel_name": "Terminus"
+         }
+    },
+
+    // Sublime Linter Goto next/previous errors
+    { "keys": ["ctrl+k", "n"], "command": "sublime_linter_goto_error",
+      "args": { "direction": "next" }
+    },
+
+    { "keys": ["ctrl+k", "p"], "command": "sublime_linter_goto_error",
+      "args": { "direction": "previous" }
+    },
+
+    { "keys": ["ctrl+k", "l"], "command": "sublime_linter_lint" }
+
+]

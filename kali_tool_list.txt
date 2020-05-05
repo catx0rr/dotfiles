@@ -1,0 +1,16 @@
+bash_scripts
+bloodhound
+crackmapexec
+gobuster
+evil-winrm
+go lang
+idapro
+impacket_github
+linux_privesc
+mk12_morse
+powersploit
+powersploit-dev
+privilege-escalation-awesome-sripts-suite
+ps1_scripts
+streams
+vncpwd

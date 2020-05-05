@@ -1,0 +1,32 @@
+{
+	"auto_close_tags": true,
+	"auto_indent": true,
+	"block_caret": false,
+	"caret_style": "phase",
+	"color_scheme": "Packages/ayu/ayu-dark.sublime-color-scheme",
+	"font_face": "Monaco",
+	"font_options":
+	[
+		""
+	],
+	"font_size": 10,
+	"hot_exit": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"preview_on_click": true,
+	"remember_full_screen": true,
+	"scroll_past_end": true,
+	"scroll_speed": 5.0,
+	"show_errors_inline": true,
+	"show_git_status": true,
+	"spacegray_fileicons": true,
+	"spacegray_tabs_normal": true,
+	"tab_completion": true,
+	"tab_size": 4,
+	"theme": "ayu-dark.sublime-theme",
+	"translate_tabs_to_spaces": true
+}

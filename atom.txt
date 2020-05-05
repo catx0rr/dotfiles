@@ -1,0 +1,31 @@
+# Atom 21st Hackable text editor
+
+	https://atom.io/
+
+# Atom packages 
+
+	- atom-beautify
+	- Sublime-Style-Column-Selection
+	- atom-html-preview
+	- atom-ternjs
+	- autoclose-html
+	- busy-signal
+	- csslint
+	- emmet
+	- intentions
+	- language-ejs
+	- linter
+	- linter-eslint
+	- linter-ui-default
+	- lorem
+	- minimap
+	- pigments
+
+# Atom Themes
+	
+	UI Theme			Syntax Theme
+	
+	- Atom Material			- Atom Material
+	- Hacking the kernel		- Hacking the kernel
+	- Seti				- Seti vs
+					- Styri		

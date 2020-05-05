@@ -1,0 +1,6 @@
+Sidebar Enhancement
+Anaconda
+Terminus
+Color Highlight
+HTML Beautify
+Ayu theme
